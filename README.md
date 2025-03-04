@@ -1,4 +1,4 @@
-# Competitive Coding Data Structures Challenge
+# IEEE Technical CC Tasks
 
 This repository contains implementations for a series of challenging data structure tasks designed to test and enhance algorithmic skills. The project is divided into three levels of increasing complexity:
 
@@ -78,4 +78,4 @@ This project is my attempt for the Technical Competitive-Coding round for IEEE-V
    ```
 
 4. **Run the Tests:**
-- Execute the individual Python files (e.g., python level1.py) to see sample usage and test cases after removing the comments from the end of each code.
+- Execute the individual Python files (e.g., `python level1.py`) to see sample usage and test cases after removing the comments from the end of each code.
