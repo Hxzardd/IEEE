@@ -33,6 +33,7 @@ This project is my attempt for the Technical Competitive-Coding round for IEEE-V
 
 - **Interval Merger:** *(Completed)*
   - Maintains a set of non-overlapping intervals. ✅
+  - Inserts intervals in O(log n) time. ✅
   - Merges overlapping intervals upon insertion. ✅
   - Provides retrieval of intervals in O(n) time. ✅
 
