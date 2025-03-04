@@ -13,15 +13,6 @@ This repository contains implementations for a series of challenging data struct
 - [Features](#features)
 - [Technologies Used](#technologies-used)
 - [Setup Instructions](#setup-instructions)
-- [Project Structure](#project-structure)
-- [Level Details](#level-details)
-  - [Level 1: Custom Stack](#level-1-custom-stack)
-  - [Level 2: Interval Merger](#level-2-interval-merger)
-  - [Level 3: Time-Based Cache](#level-3-time-based-cache)
-- [Testing and Usage](#testing-and-usage)
-- [Code Quality and Documentation](#code-quality-and-documentation)
-- [Version Control](#version-control)
-- [License](#license)
 
 ---
 
@@ -70,19 +61,19 @@ This project is my attempt for the Technical Competitive-Coding round for IEEE-V
 
 2. **Create and Activate a Virtual Environment (optional but recommended):**
  - Linux/Max:
-   - ```bash
+   ```bash
    python3 -m venv venv
    source venv/bin/activate
    ```
 
  - Windows:
-    - ```bash
+    ```bash
    python -m venv venv
    venv\Scripts\activate
    ```
 
 3. **Install Dependencies:**
-   - ```bash
+   ```bash
    pip install -r requirements.txt
    ```
 
