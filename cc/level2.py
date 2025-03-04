@@ -2,10 +2,9 @@ from sortedcontainers import SortedList
 
 class IntervalMerger:
     """
-    A data structure to maintain non-overlapping intervals with efficient merging.
-    
+    A data structure to maintain a set of non-overlapping intervals and efficiently merge them when new intervals are added.
     Supports:
-      - addInterval(start, end): O(log n) insertion and merging.
+      - addInterval(start, end): O(log n) insertion and merging using sorted lists.
       - getIntervals(): O(n) retrieval of all merged intervals.
     """
 
@@ -49,20 +48,22 @@ class IntervalMerger:
 # --------------------------------------------------------------
 # TESTING
 # --------------------------------------------------------------
-if __name__ == "__main__":
-    im = IntervalMerger()
 
-    im.addInterval(1, 5)
-    im.addInterval(6, 8)
-    print(im.getIntervals())  # Output: [(1, 5), (6, 8)]
+# 
+# if __name__ == "__main__":
+#     im = IntervalMerger()
 
-    im.addInterval(4, 7)
-    print(im.getIntervals())  # Output: [(1, 8)]
+#     im.addInterval(1, 5)
+#     im.addInterval(6, 8)
+#     print(im.getIntervals())  # Output: [(1, 5), (6, 8)]
 
-    # Further testing
-    im.addInterval(10, 12)
-    im.addInterval(9, 9)
-    print(im.getIntervals())  # Output: [(1, 8), (9, 9), (10, 12)]
+#     im.addInterval(4, 7)
+#     print(im.getIntervals())  # Output: [(1, 8)]
 
-    im.addInterval(8, 11)
-    print(im.getIntervals())  # Output: [(1, 12)]
+#     # Further testing
+#     im.addInterval(10, 12)
+#     im.addInterval(9, 9)
+#     print(im.getIntervals())  # Output: [(1, 8), (9, 9), (10, 12)]
+
+#     im.addInterval(8, 11)
+#     print(im.getIntervals())  # Output: [(1, 12)]
