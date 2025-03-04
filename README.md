@@ -29,7 +29,7 @@ This project is my attempt for the Technical Competitive-Coding round for IEEE-V
 
 - **Custom Stack:** *(Completed)*
   - Supports `push(x)`, `pop()`, `top()`, `getMin()`, and `getMax()` in O(1) time. ✅
-  - Uses O(n) space with a tuple-based approach to store auxiliary data. ✅
+  - Uses O(n) space with a tuple-based approach to store data. ✅
 
 - **Interval Merger:** *(Completed)*
   - Maintains a set of non-overlapping intervals. ✅
