@@ -25,7 +25,7 @@ This project is my attempt for the Technical Competitive-Coding round for IEEE-V
 
 ---
 
-## Features implemented
+## Features
 
 - **Custom Stack:** *(Completed)*
   - Supports `push(x)`, `pop()`, `top()`, `getMin()`, and `getMax()` in O(1) time. ✅
