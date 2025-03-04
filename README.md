@@ -27,19 +27,19 @@ This project is my attempt for the Technical Competitive-Coding round for IEEE-V
 
 ## Features implemented
 
-- **Custom Stack:**
-  - Supports `push(x)`, `pop()`, `top()`, `getMin()`, and `getMax()` in O(1) time.
-  - Uses O(n) space with a tuple-based approach to store auxiliary data.
+- **Custom Stack:** *(Completed)*
+  - Supports `push(x)`, `pop()`, `top()`, `getMin()`, and `getMax()` in O(1) time. ✅
+  - Uses O(n) space with a tuple-based approach to store auxiliary data. ✅
 
-- **Interval Merger:**
-  - Maintains a set of non-overlapping intervals.
-  - Merges overlapping intervals upon insertion.
-  - Provides retrieval of intervals in O(n) time.
+- **Interval Merger:** *(Completed)*
+  - Maintains a set of non-overlapping intervals. ✅
+  - Merges overlapping intervals upon insertion. ✅
+  - Provides retrieval of intervals in O(n) time. ✅
 
-- **Time-Based Cache:**
-  - Stores key-value pairs along with an expiration timestamp.
-  - Automatically cleans up expired entries.
-  - Utilizes a min-heap to efficiently track the key with the nearest expiry.
+- **Time-Based Cache:** *(Not Complete)*
+  - Stores key-value pairs along with an expiration timestamp. ❎
+  - Automatically cleans up expired entries. ❎
+  - Utilizes a min-heap to efficiently track the key with the nearest expiry. ❎
 
 ---
 
@@ -56,7 +56,7 @@ This project is my attempt for the Technical Competitive-Coding round for IEEE-V
 1. **Clone the Repository:**
    ```bash
    git clone https://github.com/Hxzardd/IEEE.git
-   cd competitive-coding-data-structures
+   cd your-directory-name
    ```
 
 2. **Create and Activate a Virtual Environment (optional but recommended):**
