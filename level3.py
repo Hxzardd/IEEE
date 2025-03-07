@@ -46,10 +46,10 @@ class ExpiryCache:
 #     # Case 1 - Normal Expiry
 #     ec.set(1, "apple", 3)  # Key 1 -> Expires in 3 sec
 #     ec.set(2, "banana", 5)  # Key 2 -> Expires in 5 sec
-#     print(ec.get(1))  # Expected Output: "apple"
+#     print(ec.get(1))  # Output: "apple"
 #     time.sleep(4)
-#     print(ec.get(1))  # Expected Output: None (Expired)
-#     print(ec.get(2))  # Expected Output: "banana" (Still valid)
+#     print(ec.get(1))  # Output: None (Expired)
+#     print(ec.get(2))  # Output: "banana" (Still valid)
 
         """
         Case 2 is theoretically right.... but is not giving the expected output unfortunately :(
@@ -59,7 +59,7 @@ class ExpiryCache:
 #     time.sleep(3)  # Sleep for 3 sec
 #     ec.set(3, "new", 6)  # Update Key 3 -> Now expires in 6 more sec
 #     time.sleep(4)  # Total time passed = 3 + 4 = 7 sec, Key 3 should still be valid
-#     print(ec.get(3))  # Expected Output: "new" (Still valid)
+#     print(ec.get(3))  # Expcted Output: "new" (Still valid).... # Output: None
 
 #     time.sleep(3)  # Wait for key 3 to expire completely
 #     print(ec.get(3))  # Output: None (Expired)

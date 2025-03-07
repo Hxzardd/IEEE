@@ -1,7 +1,8 @@
 # IEEE Technical CC Tasks
 
-This repository contains implementations for a series of challenging data structure tasks designed to test and enhance algorithmic skills. The project is divided into three levels of increasing complexity:
+This repository contains implementations for a series of challenging data structure tasks designed to test and enhance algorithmic skills. The project is divided into four levels of increasing complexity:
 
+- **Level 0:** Basic Data Structure (Doubly Linked List) with basic operations.
 - **Level 1:** Custom Data Structure (Stack) with constant-time operations.
 - **Level 2:** Composite Data Structure (Interval Merger) for efficiently merging overlapping intervals.
 - **Level 3:** Composite Data Structure (Time-Based Cache) that supports key-value storage with automatic expiry.
@@ -19,6 +20,7 @@ This repository contains implementations for a series of challenging data struct
 ## Overview
 
 This project is my attempt for the Technical Competitive-Coding round for IEEE-VIT club that focuses on implementing efficient data structures. Each level of the challenge demonstrates a specific technique:
+- **Level 0** implements a doubly lnked list that comes with basic operations like insertion of head and tail, traversing through the list (backwards and forwards).
 - **Level 1** implements a custom stack that, in addition to standard operations, provides constant-time retrieval of the minimum and maximum elements.
 - **Level 2** implements an interval merger that maintains a sorted list of non-overlapping intervals, merging overlapping intervals as they are added.
 - **Level 3** sketches a design for a time-based cache that supports fast lookups and automatic removal of expired keys using a min-heap.
@@ -37,10 +39,10 @@ This project is my attempt for the Technical Competitive-Coding round for IEEE-V
   - Merges overlapping intervals upon insertion. ✅
   - Provides retrieval of intervals in O(n) time. ✅
 
-- **Time-Based Cache:** *(Not Complete)*
-  - Stores key-value pairs along with an expiration timestamp. ❎
-  - Automatically cleans up expired entries. ❎
-  - Utilizes a min-heap to efficiently track the key with the nearest expiry. ❎
+- **Time-Based Cache:** *(Partially Complete - A version of test case is not passing which should theoretically pass I guess)*
+  - Stores key-value pairs along with an expiration timestamp. ✅
+  - Automatically cleans up expired entries. ✅
+  - Utilizes a min-heap to efficiently track the key with the nearest expiry. ✅
 
 ---
 
