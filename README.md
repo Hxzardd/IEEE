@@ -30,7 +30,7 @@ This project is my attempt for the Technical Competitive-Coding round for IEEE-V
 ## Features
 
 - **Double Linked List:** *(Completed)*
-  - Supports `insert_head()`, `insert_tail()` in O(1) time and `traverse_forward()`, `traverse_backward()`, `length()` in O(n) time.
+  - Supports `insert_head()`, `insert_tail()` in O(1) time and `traverse_forward()`, `traverse_backward()`, `length()` in O(n) time. ✅
 
 - **Custom Stack:** *(Completed)*
   - Supports `push(x)`, `pop()`, `top()`, `getMin()`, and `getMax()` in O(1) time. ✅
