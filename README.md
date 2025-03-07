@@ -14,6 +14,7 @@ This repository contains implementations for a series of challenging data struct
 - [Features](#features)
 - [Technologies Used](#technologies-used)
 - [Setup Instructions](#setup-instructions)
+- [References](#references)
 
 ---
 
@@ -85,3 +86,12 @@ This project is my attempt for the Technical Competitive-Coding round for IEEE-V
 
 4. **Run the Tests:**
 - Execute the individual Python files (e.g., `python level1.py`) to see sample usage and test cases after removing the comments from the end of each code.
+
+---
+
+## Setup Instructions
+
+1. **For DDL** - [Click here](https://www.geeksforgeeks.org/doubly-linked-list/)
+2. **For Stack** - [Click here](https://www.geeksforgeeks.org/stack-in-python/)
+3. **For O(log n) Sorted Lists** - [Click here](https://www.geeksforgeeks.org/python-sorted-containers-an-introduction/)
+4. **For Heaps** - [Click here](https://www.geeksforgeeks.org/heap-queue-or-heapq-in-python/)
