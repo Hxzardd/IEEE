@@ -8,7 +8,6 @@ class Stack:
       - getMax(): Returns the largest element in the stack.
     All operations work in O(1) time, and total space is O(n).
     """
-
     def __init__(self):
         # Initializing an empty list
         self.stack = [] # Each element in self.stack is  gonna be a tuple of the format (actual_value_pushed, current_minimum_value, current_maximum_value)
