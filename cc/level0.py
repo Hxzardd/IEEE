@@ -53,30 +53,30 @@ class DoublyLinkedList:
 # -------------------
 # TEST CASES
 # -------------------
-if __name__ == "__main__":
-    dll = DoublyLinkedList()
+# if __name__ == "__main__":
+#     dll = DoublyLinkedList()
 
-    # Case 1: Insert at head
-    dll.insert_head(10)
-    dll.insert_head(20)
-    dll.insert_head(30)
+#     # Case 1: Insert at head
+#     dll.insert_head(10)
+#     dll.insert_head(20)
+#     dll.insert_head(30)
 
-    print("Forward Traversal:")
-    dll.traverse_forward()  # Output: 30 <-> 20 <-> 10 <-> None
+#     print("Forward Traversal:")
+#     dll.traverse_forward()  # Output: 30 <-> 20 <-> 10 <-> None
 
-    print("\nBackward Traversal:")
-    dll.traverse_backward()  # Output: 10 <-> 20 <-> 30 <-> None
+#     print("\nBackward Traversal:")
+#     dll.traverse_backward()  # Output: 10 <-> 20 <-> 30 <-> None
 
-    print("\nLength of List:", dll.length())  # Output: 3
+#     print("\nLength of List:", dll.length())  # Output: 3
 
-    # Case 2: Insert at tail
-    dll.insert_tail(40)
-    dll.insert_tail(50)
+#     # Case 2: Insert at tail
+#     dll.insert_tail(40)
+#     dll.insert_tail(50)
 
-    print("\nForward Traversal after inserting at tail:")
-    dll.traverse_forward()  # Output: 30 <-> 20 <-> 10 <-> 40 <-> 50 <-> None
+#     print("\nForward Traversal after inserting at tail:")
+#     dll.traverse_forward()  # Output: 30 <-> 20 <-> 10 <-> 40 <-> 50 <-> None
 
-    print("\nBackward Traversal after inserting at tail:")
-    dll.traverse_backward()  # Output: 50 <-> 40 <-> 10 <-> 20 <-> 30 <-> None
+#     print("\nBackward Traversal after inserting at tail:")
+#     dll.traverse_backward()  # Output: 50 <-> 40 <-> 10 <-> 20 <-> 30 <-> None
 
-    print("\nLength of List after inserting at tail:", dll.length())  # Output: 5
+#     print("\nLength of List after inserting at tail:", dll.length())  # Output: 5

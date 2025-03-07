@@ -47,8 +47,6 @@ class Stack:
 # --------------------------------------------------------------
 # TESTING
 # --------------------------------------------------------------
-
-#
 # if __name__ == "__main__":
 #     s = Stack()
 
@@ -79,6 +77,6 @@ class Stack:
 #     print(s.pop()) # Output: 5 (popped 5)
 #     print(s.pop()) # Output: 3 (popped 3)
 
-#     # Now stack is empty, next line would raise an error if uncommented:
+#     # Now stack is empty, next line would raise an error
 #     print(s.pop()) # Would raise IndexError (stack is empty)
 

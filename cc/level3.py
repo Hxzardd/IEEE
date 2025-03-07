@@ -51,9 +51,9 @@ class ExpiryCache:
 #     print(ec.get(1))  # Output: None (Expired)
 #     print(ec.get(2))  # Output: "banana" (Still valid)
 
-        """
-        Case 2 is theoretically right.... but is not giving the expected output unfortunately :(
-        """
+        
+#     # Case 2 is theoretically right.... but is not giving the expected output unfortunately :(
+
 #     # Case 2 - Updating an existing Key
 #     ec.set(3, "old", 5)  # Key 3 -> Expires in 5 sec
 #     time.sleep(3)  # Sleep for 3 sec
