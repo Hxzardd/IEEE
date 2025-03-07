@@ -89,7 +89,7 @@ This project is my attempt for the Technical Competitive-Coding round for IEEE-V
 
 ---
 
-## Setup Instructions
+## References
 
 1. **For DDL** - [Click here](https://www.geeksforgeeks.org/doubly-linked-list/)
 2. **For Stack** - [Click here](https://www.geeksforgeeks.org/stack-in-python/)
